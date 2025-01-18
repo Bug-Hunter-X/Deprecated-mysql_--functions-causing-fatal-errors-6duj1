@@ -1,0 +1,1 @@
+This code uses the `mysql_*` functions which are deprecated and removed in PHP 7.  The code will fail with a fatal error if run on a PHP 7 or later system.  The solution involves replacing the deprecated functions with their `mysqli_*` or `PDO` counterparts.
